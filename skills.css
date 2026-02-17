@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo a:hover {
+    color: rgb(0, 122, 252);
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.items {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s;
+}
+
+.items a:hover {
+    color: rgb(0, 122, 252);
+    transform: translateY(-5px);
+
+
+}
+
+.my-introduction {
+    position: relative;
+}
+
+
+.hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-me {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2.8rem;
+    font-size: 25px;
+}
+
+.about-me b {
+    color: rgb(0, 122, 252);
+}
+
+.about-me h1 {
+    line-height: 4rem;
+}
+
+.about-me hr {
+    width: 40%;
+    border-color: rgb(0, 122, 252);
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+.buttons {
+    max-width: 100%;
+    height: 35px;
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.buttons a {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(0, 122, 252);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1mm solid black;
+    transition: 0.3s;
+}
+
+#btn {
+    background-color: white;
+    color: rgb(0, 122, 252);
+}
+
+#btn:hover {
+    color: white;
+    background-color: rgb(0, 122, 252);
+
+}
+
+.buttons a:hover {
+    cursor: pointer;
+    color: rgb(0, 122, 252);
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+}
+
+.skills-box {
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 238, 255);
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.skills-box h1 {
+    color: rgb(0, 122, 252);
+    cursor: pointer;
+}
+
+.skills-box hr {
+    width: 98%;
+    border-color: rgb(0, 122, 252);
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+.skills-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills {
+    width: 160px;
+    height: 70px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.skills a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+
+.skills a:hover {
+    color: white;
+
+}
+
+.skills p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skills img {
+    width: 30px;
+    height: 30px;
+}
+
+.skills:hover {
+    transform: translateY(-8px);
+    background-color: rgb(0, 122, 252);
+}
+
+.tools-box {
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 238, 255);
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.tools-box h1 {
+    color: rgb(0, 122, 252);
+    cursor: pointer;
+}
+
+.tools-box hr {
+    width: 98%;
+    border-color: rgb(0, 122, 252);
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+.tools-card {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 25px;
+
+}
+
+.tools a {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 20px 25px;
+
+}
+
+.tools a:hover {
+    color: white
+}
+
+.tools {
+    width: 170px;
+    height: 70px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.tools:hover {
+    transform: translateY(-8px);
+    background-color: rgb(0, 122, 252);
+}
+
+
+.tools img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Responsive design */
+
+@media(max-width:768px) {
+
+    .navbar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .items {
+        width: 100px auto;
+        align-items: center;
+        gap: 35px;
+        font-size: 14px;
+    }
+
+    .hero {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-me {
+        position: static;
+        transform: none;
+        font-size: 14px;
+        line-height: 1.8rem;
+        max-width: 100%;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+
+     hr {
+        margin: 10px auto;
+    }
+
+    .buttons {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .buttons a {
+        width:100px auto;
+        height: 35px;
+        font-size: 10.5px;
+        
+    }
+
+    .skills-box h1{
+        font-size: 24px;
+    }
+
+    .skills-card {
+        flex-direction: column;
+        gap: 20px;
+
+
+    }
+
+    .tools-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tools-box h1{
+        font-size: 24px;
+    }
+
+    .skills {
+        width: 120px;
+        height: 50px;
+    }
+
+    .skills img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .skills p {
+        font-size: 12px;
+    }
+
+    .tools {
+        width: 120px;
+        height: 50px;
+    }
+
+    .tools img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .tools p {
+        font-size: 14px;
+    }
+}
